@@ -1,4 +1,4 @@
-Clientlinker-flow-confighandler-test-test
+Clientlinker-flow-confighandler-test
 ========================
 
 [![NPM Version][npm-image]][npm-url]
