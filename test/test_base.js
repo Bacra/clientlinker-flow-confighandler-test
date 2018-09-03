@@ -1,6 +1,5 @@
 'use strict';
 
-var expect				= require('expect.js');
 var ClientLinker		= require('clientlinker');
 var confighandlerTest	= require('../');
 
