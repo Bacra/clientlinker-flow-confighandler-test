@@ -1,5 +1,5 @@
 Clientlinker-flow-confighandler-test
-========================
+====================================
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][npm-url]
@@ -32,12 +32,12 @@ npm i clientlinker-flow-confighandler-test --save-dev
 var clientlinker = require('clientlinker');
 var confighandlerTest = require('clientlinker-flow-confighandler-test');
 var linker = clientlinker({
-	flows: ['confighandler'],
-	clients: {
-		client: {
-			confighandler: confighandlerTest.methods
-		}
-	}
+  flows: ['confighandler'],
+  clients: {
+    client: {
+      confighandler: confighandlerTest.methods
+    }
+  }
 });
 
 
@@ -45,7 +45,7 @@ linker.flow('confighandler', require('clientlinker-flow-confighandler'));
 
 describe('#test', function()
 {
-	confighandlerTest.run(linker, 'client');
+  confighandlerTest.run(linker, 'client');
 });
 ```
 
