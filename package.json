@@ -25,7 +25,7 @@
     "debug": "^3.1.0"
   },
   "devDependencies": {
-    "clientlinker": "^7.1.0",
+    "clientlinker": "^7.1.2",
     "clientlinker-flow-confighandler": "^1.1.0",
     "cross-env": "^5.2.0",
     "eslint": "^5.5.0",
