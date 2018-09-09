@@ -1,11 +1,11 @@
 'use strict';
 
-var ClientLinker		= require('clientlinker');
+var clientlinker		= require('clientlinker');
 var confighandlerTest	= require('../');
 
 describe('#base', function()
 {
-	var linker = ClientLinker(
+	var linker = clientlinker(
 	{
 		flows: ['confighandler'],
 		clients:
